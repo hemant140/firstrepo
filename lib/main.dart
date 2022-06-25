@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 import 'pages/home_pages.dart';
 
 void main() => runApp(MaterialApp(
-  debugShowCheckedModeBanner: false,
+      debugShowCheckedModeBanner: false,
       home: LoginPage(),
       theme: ThemeData(primarySwatch: Colors.grey),
-  routes: {
-        "/login" : (context) => LoginPage(),
-        "/home" : (context) => HomePage(),
-  },
+      routes: {
+        "/login": (context) => LoginPage(),
+        "/home": (context) => HomePage(),
+      },
     ));
 
-
+// this is demo  first app so use
 
